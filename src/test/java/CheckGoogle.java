@@ -11,12 +11,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class CheckGoogle {
     private WebDriver driver;
     private String baseUrl;
-    WebDriver driver1;
-
-    @BeforeClass
-    public static void setupClass() {
-        MarionetteDriverManager.getInstance().setup();
-    }
 
     @Before
     public void setUp() throws Exception {
